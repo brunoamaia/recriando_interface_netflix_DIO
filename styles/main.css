@@ -83,3 +83,11 @@ main .filme-principal{
 .botao i {
   margin-right: 8px;
 }
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container{
+  width: 70%;
+}
