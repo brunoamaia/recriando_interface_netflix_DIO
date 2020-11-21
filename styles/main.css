@@ -1,0 +1,15 @@
+*{  /* Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{  /* Cores */
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+body{
+  background: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+}
