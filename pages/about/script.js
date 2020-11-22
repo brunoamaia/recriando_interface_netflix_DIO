@@ -1,5 +1,7 @@
 // pegar a informação na "seção"
-const data = sessionStorage.getItem("movie");
+const id = sessionStorage.getItem("movie");
 
-console.log(`filme = ${data}`)
 
+console.log('Inicio')
+console.log(`filme = ${id}`)
+console.log(`data fake = ${dataFake[0].trailler}`)
