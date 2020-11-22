@@ -34,8 +34,10 @@
         </p>
 
         <div class="botoes">
-          <button role="button" class="botao">
-            <i class="fas fa-play"></i>  ASSISTIR AGORA
+          <button role="button" class="botao" onclick="aboutMovie(12)">
+            <a href="./pages/about/index.html">
+              <i class="fas fa-play"></i>  ASSISTIR AGORA
+            </a>
           </button>
           <button role="button" class="botao">
             <i class="fas fa-info"></i> MAIS INFORMAÇÔES
@@ -61,10 +63,17 @@
       <div class="item"> <img class="box-filme" src="./img/mini/mini10.jpg" alt=""> </div>
     </div>
   </div>
-  
+
+
+
+
+  <!-- Ações dessa página -->
+  <script src="./js/main.js"></script>
+
   <!-- Font Awesome - Ícones -->
   <script src="https://kit.fontawesome.com/757c5ccd22.js" crossorigin="anonymous"></script>
 
+  <div class="script-carousel"></div>
   <!-- Owl Carousel 2 - JS -->
   <script src="./js/owl/jquery.min.js"></script>
   <script src="./js/owl/owl.carousel.min.js"></script>

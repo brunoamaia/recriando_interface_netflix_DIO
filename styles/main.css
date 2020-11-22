@@ -80,6 +80,11 @@ main .filme-principal{
   color: black;
 }
 
+.botao a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .botao i {
   margin-right: 8px;
 }
