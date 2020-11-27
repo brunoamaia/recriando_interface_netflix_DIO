@@ -9,6 +9,12 @@ function aboutMovie(id) {
   sessionStorage.setItem("movie", id);
 }
 
+// Modificar os dados do banner
+function handleChangeBanner(id){
+  document.querySelector(".titulo").innerHTML = `${dataFake[parseInt(id)].name}`
+  document.querySelector(".descricao").innerHTML = `${dataFake[parseInt(id)].overview}`
+  document.querySelector(".filme-principal").style.backgroundImage = `url(../img/banner/banner${id}.jpg)`;
+}
 
 // auto preencher os filmes do carrossel 
 /*var movieId = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
