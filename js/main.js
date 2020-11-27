@@ -1,12 +1,22 @@
 // Uso de "sessionStorage"
 // permite salvar dados na aba do navegador até o mesmo ser fechado
+
 // Remover dado de banner do "sessionStorage"
-if (typeof(Storage) !== "undefined") {
+/*if (typeof(Storage) !== "undefined") {
   sessionStorage.removeItem("movie")
-}
+}*/
+
 // mudar de página com o Id do banner
-let movieId = 8;
+let movieId = sessionStorage.getItem("movie") || 8;
+if (movieId < 10) {
+  movieId = '0'+movieId
+}
 function aboutMovie() {
+  sessionStorage.setItem("movie", parseInt(movieId));
+}
+
+// mudar de página de mais informações
+function moreAboutMovie() {
   sessionStorage.setItem("movie", parseInt(movieId));
 }
 
@@ -19,6 +29,7 @@ function handleChangeBanner(id){
   document.querySelector(".filme-principal").style.backgroundPosition = `0 +10%`
 }
 
+window.onload = handleChangeBanner(movieId);
 // auto preencher os filmes do carrossel 
 /*var movieId = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
 var carrousel = document.querySelector("#auto-complete-carousel")
