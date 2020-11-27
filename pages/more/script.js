@@ -22,7 +22,7 @@ if( moreDataFake[id].type === "Filme") {
 
 document.querySelector(".info").innerHTML = `
   <h1>${moreDataFake[id].name}</h1>
-  <span>Estilo: ${moreDataFake[id].type}, Gênero: ${moreDataFake[id].genre}</span>
+  <span>Estilo: ${moreDataFake[id].type} <br> Gênero: ${moreDataFake[id].genre}</span>
   <p>Sinopse: ${moreDataFake[id].overview}</p>
   <span>Onde ver: ${moreDataFake[id].access}</span>
   ${lastInfo}

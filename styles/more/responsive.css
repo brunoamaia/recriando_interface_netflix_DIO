@@ -1,0 +1,31 @@
+@media screen and (min-width: 700px){
+  .banner {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+
+@media screen and (min-width: 1000px){
+  .container-info {
+    width: 900px;
+  }
+
+  .background {
+    top: 22px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .banner {
+    height: 100vh;
+  }
+
+  .container-info {
+    width: 1350px;
+  }
+
+  .background {
+    top: 22px;
+  }
+}
