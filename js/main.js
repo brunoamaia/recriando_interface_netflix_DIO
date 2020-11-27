@@ -11,18 +11,12 @@ let movieId = sessionStorage.getItem("movie") || 8;
 if (movieId < 10) {
   movieId = '0'+movieId
 }
-function aboutMovie() {
-  sessionStorage.setItem("movie", parseInt(movieId));
-}
-
-// mudar de página de mais informações
-function moreAboutMovie() {
-  sessionStorage.setItem("movie", parseInt(movieId));
-}
 
 // Modificar os dados do banner
 function handleChangeBanner(id){
   movieId = id;
+  sessionStorage.setItem("movie", parseInt(movieId));
+
   document.querySelector(".titulo").innerHTML = `${dataFake[parseInt(id)].name}`
   document.querySelector(".descricao").innerHTML = `${dataFake[parseInt(id)].overview}`
   document.querySelector(".filme-principal").style.background = `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/banner/banner${id}.jpg)`
