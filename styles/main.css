@@ -52,14 +52,16 @@ main .filme-principal{
 }
 
 .filme-principal .titulo{
-  margin-top: 15%;
+  margin-top: 3%;
   font-size: 40px;
   font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .filme-principal .descricao {
-  margin-bottom: 40px;
-  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  max-height: 73px;
+  overflow: hidden;
 }
 
 .botao{
