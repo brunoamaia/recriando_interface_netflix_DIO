@@ -60,15 +60,16 @@ var dataFake = [
     "trailler": "uQ4EVbttTp4"
   },
   {
-    "name": "The Walking Dead: Um Novo Universo",
-    "genre": " Drama, Sci-Fi & Fantasy, Mistério",
-    "overview": "A série acompanha a primeira geração de jovens que cresceu no mundo pós-apocalíptico de The Walking Dead.",
-    "trailler": "rOZV6HWIMRo"
-  },
-  {
     "name": "Bronx",
     "genre": " Thriller, Ação, Drama, Crime",
     "overview": "Marselha. Tudo começa com a carnificina causada pelos homens do clã Orsoni. Richard Vronski, um policial da brigada anti-gangue com métodos pouco ortodoxos, se vê encarregado da investigação, enfrentando seus rivais, comandados por Costa, major da polícia. Um novo diretor, o comissário Angel Leonetti chega para dominar os cães loucos de sua equipe. Mas todos perceberão rapidamente que não se recebe nada sem sacrifícios ou riscos.",
     "trailler": "vDPcSRpjKHg"
+  },
+  {
+    "name": "The Walking Dead: Um Novo Universo",
+    "genre": " Drama, Sci-Fi & Fantasy, Mistério",
+    "overview": "A série acompanha a primeira geração de jovens que cresceu no mundo pós-apocalíptico de The Walking Dead.",
+    "trailler": "rOZV6HWIMRo"
   }
+  
 ]

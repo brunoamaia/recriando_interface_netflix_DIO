@@ -13,7 +13,8 @@ function aboutMovie(id) {
 function handleChangeBanner(id){
   document.querySelector(".titulo").innerHTML = `${dataFake[parseInt(id)].name}`
   document.querySelector(".descricao").innerHTML = `${dataFake[parseInt(id)].overview}`
-  document.querySelector(".filme-principal").style.backgroundImage = `url(../img/banner/banner${id}.jpg)`;
+  document.querySelector(".filme-principal").style.background = `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/banner/banner${id}.jpg)`
+  document.querySelector(".filme-principal").style.backgroundPosition = `0 +10%`
 }
 
 // auto preencher os filmes do carrossel 
