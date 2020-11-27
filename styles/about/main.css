@@ -1,0 +1,33 @@
+*{  /* Reset */
+  text-decoration: none;
+}
+
+.banner {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-trialer {
+  padding-bottom: 25px;
+}
+.trailer {
+  border: 8px solid #000;
+  border-bottom: 3px solid #000;
+  background-color: #000;
+}
+
+
+.background {
+  object-fit: cover;
+  
+  width: 100%;
+  height: 100vh;
+
+  position: absolute;
+  top: 40px;
+  z-index: -1;
+}

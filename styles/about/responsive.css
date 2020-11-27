@@ -1,0 +1,16 @@
+@media screen and (min-width: 700px){
+  .background {
+    top: 25px;
+  }
+
+}
+
+@media screen and (min-width: 1000px){
+  .banner {
+    height: 100vh;
+  }
+
+  .background {
+    top: 22px;
+  }
+}

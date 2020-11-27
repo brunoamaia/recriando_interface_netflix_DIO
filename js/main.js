@@ -4,13 +4,15 @@
 if (typeof(Storage) !== "undefined") {
   sessionStorage.removeItem("movie")
 }
-// adicionar id do filme no 
-function aboutMovie(id) {
-  sessionStorage.setItem("movie", id);
+// mudar de página com o Id do banner
+let movieId = 8;
+function aboutMovie() {
+  sessionStorage.setItem("movie", parseInt(movieId));
 }
 
 // Modificar os dados do banner
 function handleChangeBanner(id){
+  movieId = id;
   document.querySelector(".titulo").innerHTML = `${dataFake[parseInt(id)].name}`
   document.querySelector(".descricao").innerHTML = `${dataFake[parseInt(id)].overview}`
   document.querySelector(".filme-principal").style.background = `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/banner/banner${id}.jpg)`
