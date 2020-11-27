@@ -20,6 +20,13 @@
   background-color: #000;
 }
 
+.botoes {
+  padding-bottom: 100px;
+}
+
+.botao {
+  background-color: #b10f17;
+}
 
 .background {
   object-fit: cover;
