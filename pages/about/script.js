@@ -1,5 +1,5 @@
 // pegar a informação na "seção"
-const id = sessionStorage.getItem("movie");
+const id = sessionStorage.getItem("movie") || 8;
 
 // inserir o Trailer
 let trailer = document.querySelector(".trailer")
@@ -31,7 +31,3 @@ if (id < 10) {
   newID = '0'+id
 }
 document.querySelector(".background").innerHTML = `<img  class="background" src="../../img/banner/banner${newID}.jpg" alt="">`
-
-/*console.log('Inicio')
-console.log(`filme = ${id}`)
-console.log(`data fake = ${dataFake[0].trailler}`) */
